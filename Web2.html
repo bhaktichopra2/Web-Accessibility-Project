@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chemistry Page</title>
+    <style>
+        body {
+            background-color: #e6e6e6;
+            color: #deefe4;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: grid;
+            place-items: center;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: #d1dddc;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            height: 80vh;
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .btn button {
+            display: flex;
+            flex-direction: column;
+            border: none;
+            padding: 6px 12px;
+            font-size: 14px;
+            font-weight: normal;
+            align-items: center;
+            cursor: pointer;
+            background-color: #2237ac;
+            border-radius: 4px;
+            color: aliceblue;
+            margin: 25px;
+        }
+
+        .btn button:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(167, 182, 255);
+        }
+
+        .feedback-form {
+      background: #e6e6e6;
+      padding: 2rem 2.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(156, 156, 156, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+    .feedback-form h2 {
+      margin-bottom: 1rem;
+      color: #d7dae1;
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 1rem;
+      color: #bec4cd;
+      font-weight: bold;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 14px;
+      border: 1px solid #b3c3d6;
+      border-radius: 4px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    input[type="number"] {
+      width: 70px;
+      padding: 6px;
+      border-radius: 4px;
+      border: 1px solid #b3c3d6;
+      font-size: 1rem;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 70px;
+    }
+    button {
+      background: #cbd3e2;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 0;
+      font-size: 1.1rem;
+      width: 100%;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #b3bccb;
+    }
+    .rating-field {
+      margin-bottom: 18px;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Web Accessibility Project</h1>
+
+    <p>Web accessibility ensures that web applications are designed and developed to be usable by people with diverse
+        abilities, including those with visual, auditory, motor, and cognitive disabilities. This inclusive design
+        approach not only fulfills legal and ethical obligations but also improves the overall user experience by making
+        digital content perceivable, operable, understandable, and robust. Key standards like the Web Content
+        Accessibility Guidelines (WCAG) guide developers on best practices such as using semantic HTML, ARIA roles,
+        maintaining proper color contrast, enabling keyboard navigation, and providing alternative text for images.</p>
+
+    <img src="https://images.squarespace-cdn.com/content/v1/5f45756b1ed6f34a69dd9c81/ef39eb55-88fc-4edb-8005-dd64095084b9/digital+accessibility.jpg"
+        alt="Periodic Table">
+    <p style="text-align:center;">Image Source: Wikipedia</p>
+
+    <form class="feedback-form">
+        <h2>Website Feedback</h2>
+        <input type="text" id="fname" name="fname" placeholder="Example: Alice" required>
+
+        <input type="text" id="lname" name="lname" placeholder="Example: Singh" required>
+
+        <div class="rating-field">
+            <input type="number" id="rating" name="rating" min="1" max="10" placeholder="Rating" required>
+        </div>
+
+        <textarea id="feedback" name="feedback" placeholder="Tell us what you think..." required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="btn">
+        <button onclick="window.location.href='Web.html'">Go to Other Version</button>
+    </div>
+
+</body>
+
+</html>
