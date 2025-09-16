@@ -2,12 +2,12 @@
 
 This project demonstrates the importance of web accessibility through two example webpages.
 
-## Page 1: Accessible Version
+## Page 1 (Web.html): Accessible Version
 - Contains a clear heading, descriptive paragraph, and an image.
 - Includes a small feedback form with properly labeled fields.
 - At the bottom, there is a "Go to Other Version" button to navigate to the next page.
 
-## Page 2: Inaccessible Version
+## Page 2 (Web2.html): Inaccessible Version
 - Shows poor color contrast with barely visible text to highlight accessibility issues.
 - The feedback form is included but contains no labels, demonstrating poor form accessibility.
 - This page emphasizes why web accessibility is necessary for all users.
@@ -30,4 +30,8 @@ This project demonstrates the importance of web accessibility through two exampl
 ## Screenshots
 
 ![Web Accessibility Screenshot](image1.png)
+![Web Accessibility Screenshot](image2.png)
+![Web Accessibility Screenshot](image3.png)
+![Web Accessibility Screenshot](image4.png)
+
 
